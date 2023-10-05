@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.upper-section-body{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 50px; 
+    background-color: rgb(101, 99, 97);
+}
+
+.upper-section-body:hover{
+    justify-content: center;
+
+}
+
+.upper-section-body h1{
+    align-items: center;
+    font-size: 30px;
+}
+
+.upper-section-body p{
+    margin-left: 40px;
+    margin-top: 7px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.navbar {
+    background-color: rgb(38, 42, 42);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav{
+    
+    display: flex;
+    
+}
+
+.navbar-nav ul{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-nav li{
+    
+    margin: 10px;
+    list-style: none;
+}
+
+.navbar-nav a{
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #e9dddd;
+}
+
+.navbar-nav a:hover{
+    color: #19b9e5;
+    font-size: 20px;
+}
+
+.Button-box-flex{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.Button-box-flex button{
+    align-items: center;
+    color: azure;
+    text-align: center;
+    background-color: rgb(103, 93, 93);
+    width: 90px;
+    height: 40px;
+    border: 3px solid rgb(211, 242, 10);
+    margin-right: 30px ;
+}
+
+.Button-box-flex button:hover{
+    background-color: rgb(197, 25, 25);
+    box-shadow: 10px yellow;
+}
+.slider{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slider div{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 93.9999999vb;
+    height: 55vb;
+    color: yellowgreen;
+}
+.slider img{
+    
+    width: 93.9999999vh;
+    height: 55vb;
+
+}
+
+/* Style the "Fitness Goal" section */
+#fitness-goal {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+#fitness-goal h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#fitness-goal p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#fitness-goal h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#fitness-goal ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#fitness-goal li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Style links in the content */
+#fitness-goal a {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+#fitness-goal a:hover {
+    text-decoration: none;
+}
+
+/* Style for the "Goal" section */
+#goal-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+#goal-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#goal-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Style for the "Franchise Opportunities" section */
+#franchise-section {
+    background-color: #e6f7ff;
+    padding: 40px;
+    text-align: center;
+}
+
+#franchise-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#franchise-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#franchise-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#franchise-section li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Style for the "Advertise With Us" section */
+#advertise-section {
+    background-color: #f0e6ff;
+    padding: 40px;
+    text-align: center;
+}
+
+#advertise-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#advertise-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#advertise-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#advertise-section li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
